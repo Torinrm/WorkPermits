@@ -1,0 +1,25 @@
+.top-footer {
+  background-color: #222;
+  color: #fff;
+  padding: 8px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed; /* stays at top */
+  top: 0;
+  left: 0;
+  width: 100%;
+  font-size: 14px;
+  z-index: 1000;
+}
+
+.top-footer-links a {
+  color: #00f;
+  text-decoration: underline;
+  margin-left: 15px;
+  transition: color 0.2s ease;
+}
+
+.top-footer-links a:hover {
+  color: #0ff;
+}
